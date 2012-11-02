@@ -1,0 +1,26 @@
+@external gwt-HTML;
+
+.ratingContainer {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	border: 1px solid #c4c4c4;
+	margin:5px;
+	padding:5px;
+	height: 200px;
+}
+
+.starContainer {
+   margin: 20px 0 40px 0;
+ }
+ 
+ .contentContainer{
+ 	
+ }
+.contentContainer{
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+	color:#C4C4C4;
+ }
+ 

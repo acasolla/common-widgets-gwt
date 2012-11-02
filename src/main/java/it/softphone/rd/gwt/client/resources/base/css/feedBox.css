@@ -1,0 +1,98 @@
+@external htmlLink;
+@external gwt-HTML;
+@external socialBoxContainer;
+
+
+@-webkit-keyframes slideinfromright {
+    from { 
+    	-webkit-transform: translateX(100%); 
+    }
+    to { 
+    	-webkit-transform: translateX(0); 
+    }
+}
+
+@-webkit-keyframes slideinfromleft {
+    from { 
+    	-webkit-transform: translateX(-100%); 
+    }
+    to { 
+    	-webkit-transform: translateX(0); 
+    }
+}
+
+@-webkit-keyframes slideinfromtop {
+    from { 
+    	-webkit-transform: translateY(-100%); 
+    }
+    to { 
+    	-webkit-transform: translateY(0); 
+    }
+}
+
+@-webkit-keyframes fade {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+.socialBoxContainer{
+	background-color: #FFF;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #c4c4c4;
+	\-webkit-animation-duration: 900ms;
+    \-webkit-animation-iteration-count: 1;
+    \-webkit-animation-timing-function: ease-in-out;
+    \-webkit-animation-fill-mode: both;
+    \-webkit-animation-name: slideinfromtop;
+    margin-top: 0px;
+	
+
+}
+
+.socialContentBox{}
+
+
+.feedBoxContainer{
+	
+}
+
+.feedBoxImageContainer {
+	width: 100%; 
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    
+
+}
+
+.feedBoxImage {
+}
+
+.feedBoxImage img{
+	width:20px;
+    height:20px;
+    float:left;
+    padding:2px;
+    margin-top: 4px;
+}
+
+
+
+.feedBoxContainer .htmlLink{
+	float:left;
+	color:#3B5998;
+	font-size:12px;
+	padding: 2px 5px 2px 3px;
+}
+.feedBoxContainer .gwt-HTML{
+	float:left;
+	padding: 2px 5px 2px 3px;
+	width: 70%;
+	
+}
+
+
+
+

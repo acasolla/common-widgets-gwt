@@ -1,0 +1,38 @@
+@external gwt-Label;
+@external gwt-HTML;
+@external textInput;
+@external textInput-hint;
+
+.filterDialog{
+	transition: width 6s;
+	-moz-transition: width 6s; /* Firefox 4 */
+	-webkit-transition: width 6s; /* Safari and Chrome */
+	-o-transition: width 6s; /* Opera */
+  	background-color:#fff;
+  	box-shadow: 4px 4px 1px #999;
+  	border-left: 1px solid #efefef;
+}
+
+.filterDialog .textInput{
+	padding:10px;
+	font-size: 12px;
+}
+.filterDialog .textInput-hint{
+	padding:10px;
+}
+
+.filterDialog .gwt-Label{
+	color:red;
+}
+
+.filterDialog .gwt-Label:hover{
+	background-color: green;
+}
+
+.filterDialog .gwt-HTML{
+	padding:0px 5px 0px 5px;
+}
+
+.filterDialog .gwt-HTML:hover{
+	background-color: #d4e4e4;
+}

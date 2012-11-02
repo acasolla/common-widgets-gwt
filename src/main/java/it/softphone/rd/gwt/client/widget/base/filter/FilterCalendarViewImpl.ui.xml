@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder 
+	xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:c="urn:import:com.google.gwt.user.cellview.client" 
+	xmlns:d="urn:import:com.google.gwt.user.datepicker.client" 
+	xmlns:gwt="urn:import:it.softphone.rd.gwt.client.widget.base">
+	<ui:with field="res" type="it.softphone.rd.gwt.client.resources.Resources" />
+	<ui:with field="css" type="it.softphone.rd.gwt.client.resources.CommonWidgetsCssResource" />
+	<ui:style>
+		.left{
+	
+	float:left;
+}
+.right{
+	
+	float:right;
+}
+	</ui:style>
+
+<g:FlowPanel>
+
+<g:Label stylePrimaryName="{css.filterCalendar.filterCalendarLabel}">Select a date range</g:Label>
+ 	<g:Button stylePrimaryName="{css.filterCalendar.filterCalendarButton}" ui:field="closeButton">x</g:Button>
+
+ <g:FlowPanel addStyleNames="{css.filterCalendar.filterCalendarContainer}">
+ 
+ 	<g:FlowPanel>
+ 		<g:Label >From:</g:Label>
+ 		<d:DatePicker ui:field="from"></d:DatePicker>
+ 		<gwt:HTMLLink text="Today" ui:field="fromToday"></gwt:HTMLLink>
+ 	</g:FlowPanel>
+ 	<g:FlowPanel>
+ 		<g:Label>To:</g:Label>
+ 		<d:DatePicker ui:field="to"></d:DatePicker>
+ 		<gwt:HTMLLink text="Today" ui:field="toToday"></gwt:HTMLLink>
+ 	</g:FlowPanel>
+ 
+ </g:FlowPanel>
+ </g:FlowPanel> 	
+</ui:UiBinder>

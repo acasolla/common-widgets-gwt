@@ -1,0 +1,164 @@
+@external gwt-Label;
+@external gwt-DatePicker;
+@external gwt-Button;
+@external filterCalendarContainer;
+@external datePickerDay;
+@external datePickerDayIsHighlighted;
+@external datePickerDayIsValue;
+@external htmlLink;
+@external datePickerDayIsFiller;
+@external datePickerMonthSelector;
+@external datePickerMonth;
+@external datePickerPreviousButton;
+@external datePickerNextButton; 
+.filterCalendarLabel{
+	margin:0px 0px 0px 10px;
+	font-weight:bold;
+	float:left;
+}
+.filterCalendarButton{
+	font-size: 9px;
+	border-radius: 15px;
+	background-color: #4C4C4C;
+	color: #E7E7E7;	
+	font-weight: 900;
+	padding: 2px 6px 3px 6px;
+	border: none;
+	float:right;
+	margin: 3px 3px 0px 0px;
+}
+.filterCalendarButton:hover{
+	background-color: #E7E7E7;
+	color: #4C4C4C;
+}
+
+
+.filterCalendarContainer{
+	clear:both;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin:5px;
+	
+}
+
+
+.filterCalendarContainer .gwt-Label{
+		color:#4c4c4c;
+		margin: 0 0 0 5px;
+		font-weight: 500;
+}
+
+.filterCalendarContainer .gwt-Label:hover{
+		background-color: transparent;
+}
+
+
+.filterCalendarContainer div .gwt-DatePicker{
+		margin: 0px 5px 5px 5px;
+}
+
+.filterCalendarContainer div .datePickerMonthSelector{
+	
+		font-weight: bold;
+		width:100%; 
+		color:#FFF;
+		background-color: #4c4c4c;
+}
+
+.filterCalendarContainer div .datePickerMonth{
+	text-align: center;
+	color:#FFF;	
+}
+
+.filterCalendarContainer div .datePickerPreviousButton{
+	cursor:pointer;	
+	color:#FFF;
+}
+.filterCalendarContainer div .datePickerNextButton{
+	cursor:pointer;	
+	color:#FFF;
+}
+
+
+.filterCalendarContainer > div > .htmlLink{
+		font-size: 11px;
+		margin: 0px 40% 0px 40%;
+		
+}
+
+
+
+
+.filterCalendarContainer .datePickerDay{
+	background: -webkit-gradient(
+	linear,
+	literal("left bottom"),
+	literal("left top"),
+	color-stop(0.63, #E8E8E8),
+	color-stop(0.91, #E0E0E0 ),
+	color-stop(0.96, #D8D8D8 )
+);
+	color:#7c7c7c;
+	padding:4px 7px;
+	cursor:pointer;
+	font-weight: 400;
+	text-align: center;
+	border:1px solid #e2e2df;
+}
+
+.filterCalendarContainer .datePickerDayIsFiller{
+	background: -webkit-gradient(
+	linear,
+	literal("left bottom"),
+	literal("left top"),
+	color-stop(0.63, #F7F7F7)
+);	
+	color:#A1A1A1;
+	padding:4px 7px;
+	cursor:pointer;
+	text-align: center;
+}
+
+.filterCalendarContainer .datePickerDayIsHighlighted{
+	background: -webkit-gradient(
+	linear,
+	literal("left bottom"),
+	literal("left top"),
+	color-stop(0.63, #d4e4e4)
+);
+	box-shadow: -1px -1px -1px #000000;
+	color: #557878;
+	text-align: center;
+}
+
+
+
+.filterCalendarContainer .datePickerDayIsHighlighted:active{
+	background: -webkit-gradient(
+	linear,
+	literal("left bottom"),
+	literal("left top"),
+	color-stop(0.63, #557878)
+);
+	box-shadow: -1px -1px -1px #000000;
+	color: #e2e2df;
+	
+}
+
+.filterCalendarContainer .datePickerDayIsValue{
+	background: -webkit-gradient(
+	linear,
+	literal("left bottom"),
+	literal("left top"),
+	color-stop(0.63, #70a5a5)
+
+) !important;
+	color:#e7f1ee;
+	padding:4px 7px;
+	cursor:pointer;
+	font-weight: 400;
+	text-align: center;
+}
+

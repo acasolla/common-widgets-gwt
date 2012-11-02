@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<module rename-to='CommonsWidget'>
+
+ <inherits name="com.google.gwt.resources.Resources" />
+ <inherits name="com.google.gwt.place.Place"/>
+ <inherits name='it.softphone.rd.model.Model'/>
+<entry-point class='it.softphone.rd.gwt.client.CommonWidgets' />
+ 	<!--  LOGGING --> 
+ 	
+	<inherits name="com.google.gwt.logging.Logging"/>
+	
+	 <!-- Default values for all properties -->
+  <set-property name="gwt.logging.enabled" value="TRUE"/> 
+  <set-property name="gwt.logging.consoleHandler" value="ENABLED" />
+  <set-property name="gwt.logging.developmentModeHandler" value="DISABLED" />
+  <set-property name="gwt.logging.firebugHandler" value="ENABLED" />
+  <set-property name="gwt.logging.popupHandler" value="DISABLED" />
+  <set-property name="gwt.logging.systemHandler" value="ENABLED" />
+
+  
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client' />
+  <source path='shared' />
+  
+  
+  <add-linker name="xsiframe"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+  <set-property name="compiler.useSourceMaps" value="true" />
+  
+  
+
+</module>

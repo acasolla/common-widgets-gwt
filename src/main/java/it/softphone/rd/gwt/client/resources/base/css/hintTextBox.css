@@ -1,0 +1,11 @@
+@external textInput;
+@external textInput-hint;
+.textInput {
+	border: 1px solid #C9C7BA;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textInput-hint {
+   font-style: italic;
+   color: DarkGray;
+}

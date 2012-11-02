@@ -1,0 +1,43 @@
+@external gwt-HTML;
+
+.portraitContainer{
+	width: 140px;
+	height: 180px;
+	float: left;
+	padding: 5px;
+   -webkit-box-shadow: inset 0px 1px 0px #c4c4c4, 1px 5px 0px 0px #4c4c4c, 1px 6px 5px #4c4c4c;
+   -moz-box-shadow: inset 0px 1px 0px #c4c4c4, 1px 5px 0px 0px #4c4c4c, 1px 6px 5px #4c4c4c;
+   -o-box-shadow: inset 0px 1px 0px #c4c4c4, 1px 5px 0px 0px #4c4c4c, 1px 6px 5px #4c4c4c;
+   box-shadow: inset 0px 1px 0px #c4c4c4, 1px 5px 0px 0px #4c4c4c, 1px 6px 5px #4c4c4c;
+   left:30px;
+   margin: 0px 10px 20px 10px;
+   background-color: #ffffff;
+}
+
+.portraitContainer:active{
+	top:3px;
+	-webkit-box-shadow: inset 0px 1px 0px #c4c4c4, 0px 2px 0px 0px #4c4c4c, 0px 3px 3px #4c4c4c;
+	-moz-box-shadow: inset 0px 1px 0px #c4c4c4, 0px 2px 0px 0px #4c4c4c, 0px 3px 3px #4c4c4c;
+	-o-box-shadow: inset 0px 1px 0px #c4c4c4, 0px 2px 0px 0px #4c4c4c, 0px 3px 3px #4c4c4c;
+	box-shadow: inset 0px 1px 0px #c4c4c4, 0px 2px 0px 0px #4c4c4c, 0px 3px 3px #4c4c4c;
+}
+
+
+.portraitContainer img{
+	width: 135px;
+	height: 135px;
+	padding: 3px 0px 0px 0px;
+	
+}
+
+.portraitContainer .gwt-HTML{
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	float: none;
+	padding:0px 0px 0px 3px;
+	
+}
+
+
+

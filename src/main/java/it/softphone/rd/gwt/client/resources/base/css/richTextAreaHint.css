@@ -1,0 +1,37 @@
+@external textInput;
+@external textInput-hint;
+@external gwt-RichTextArea;
+
+.textInput {
+	border: 1px solid #C9C7BA;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+
+.textInput #document body{
+	border: 1px solid #C9C7BA;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+
+.textInput-hint {
+   /* background-image: url('images/overlay.gif');
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   vertical-align: middle; */
+   font-style: italic;
+   color: DarkGray;
+}
+
+.textInput-hint body{
+   /* background-image: url('images/overlay.gif');
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   vertical-align: middle; */
+   font-style: italic;
+   color: DarkGray;
+}

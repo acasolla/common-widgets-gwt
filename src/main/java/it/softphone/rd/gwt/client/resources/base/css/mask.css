@@ -1,0 +1,30 @@
+@external gwt-Label;
+@external gwt-PopupPanelGlass;
+@external gwt-Button;
+
+.maskContainer{
+	background-color: #FFF;
+	border: none;
+}
+
+.maskContainer .gwt-Label{
+	height: 40px;
+	text-align: center;
+	padding:30px 3px 5px 3px; 
+	
+}
+
+.maskContainer img{
+	margin: 10px 0px 0px 75px;
+	
+}
+
+.maskContainer .gwt-Button{
+	margin-left:40%;
+	width: 20%;
+}
+
+.gwt-PopupPanelGlass{
+	background-color:#4c4c4c;
+	opacity:0.5;
+}

@@ -1,0 +1,10 @@
+@external htmlLink;
+.htmlLink{
+	color:#06C;
+	cursor:pointer;
+}
+
+.htmlLink:hover{
+	text-decoration: underline;
+	
+}

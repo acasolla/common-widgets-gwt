@@ -1,0 +1,104 @@
+@external gwt-Label;
+@external gwt-CheckBox;
+@external gwt-HTML;
+@external gwt-Button;
+@external gwt-ListBox;
+@external gwt-RichTextArea;
+
+.answerBoxContainer{
+  float:left;
+  width:91%;
+  background-color:#d0d0d0;
+  padding : 10px;
+  border: 1px solid #c4c4c4;
+}
+
+.answerBoxImageContainer {
+ }
+
+.answerBoxImageContainer img {
+	float:left;
+	clear:both;
+	margin-left:0px;
+	margin-right:10px;
+	width: 40px;
+	height:40px;
+
+	padding:0px 0px 5px 0px;
+}
+
+.answerBoxContainer input{
+	height: 30px;
+	width: 100%
+	
+}
+
+.answerBoxContainer .gwt-RichTextArea{
+	width:100%;
+	background-color: #FFF;
+	height: 60px;
+}
+
+
+.answerBoxContainer .gwt-Label{
+	float:left;
+	margin: 20px 20px 0px 10px;
+}
+
+.answerBoxContainer .gwt-HTML{
+	float:right;
+	margin: 20px 20px 0px 10px;
+	color: #4c4c4c;
+}
+
+.answerBoxContainer .gwt-CheckBox input{
+	float:left;
+	width: 20px;
+	margin-top: 14px;
+	
+}
+
+.answerBoxContainer .gwt-ListBox{
+	color: #4c4c4c;
+	margin: 13px 20px 0px 0px;
+	min-width: 20%;
+	max-width: 260px;
+	float:right;
+	
+}
+
+.answerBoxContainer .gwt-Button {
+  background:none;
+  background-color: #719999;
+  border:1px solid #037DAB;
+  border-color:#000000;
+  color:#FFFFFF;
+  line-height:100% !important;
+  padding:6px 16px;
+  text-decoration:none;
+  text-shadow:#666666 -1px -1px 0;
+  margin-top:15px;
+  font-weight:700;
+  float:right;
+  margin-right:5px;
+  width:100px;
+  
+}
+
+.answerBoxContainer .gwt-Button:active {
+  border: 1px inset #ccc;
+}
+.answerBoxContainer .gwt-Button:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+.answerBoxContainer .gwt-Button[disabled] {
+  cursor: default;
+  color: #888;
+}
+.answerBoxContainer .gwt-Button[disabled]:hover {
+  border: 1px outset #ccc;
+}
+
+
+
+

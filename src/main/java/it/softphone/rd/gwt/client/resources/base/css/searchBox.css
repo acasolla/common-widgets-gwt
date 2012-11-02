@@ -1,0 +1,13 @@
+@url ss search;	
+
+.searchBoxContainer {
+	background-image: ss;	
+	background-repeat: no-repeat;
+	background-position:3px;
+	height: 20px;
+	width:180px;
+	border: 1px solid #4c4c4c;
+	font-size: 14px;
+	padding:2px 2px 2px 30px;
+}
+

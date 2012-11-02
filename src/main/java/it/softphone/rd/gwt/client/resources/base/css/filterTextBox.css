@@ -1,0 +1,14 @@
+@external textInput;
+@external textInput-hint;
+
+@external filterTextBox;
+.textInput {
+}
+
+.textInput-hint {
+}
+.filterTextBox{
+	border:none;
+	height: 25px;
+	width: 150px;	
+}

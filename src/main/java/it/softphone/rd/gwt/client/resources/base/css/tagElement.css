@@ -1,0 +1,78 @@
+@external gwt-Button;
+@external gwt-HTML;
+
+.tagElementContainer {
+	background-color:#EEEEEE;
+	float:left;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin: 5px;
+	height: 25px;
+	border: 1px solid #c4c4c4;
+}
+
+.tagElementContainer-Suggested {
+	background-color:#EEEEEE;
+	float:left;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin: 5px;
+	height: 25px;
+	border: 1px solid #c4c4c4;
+	cursor:pointer;
+}
+
+.tagElementContainer-Suggested:hover {
+	background-color:#4c4c4c;
+	float:left;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin: 5px;
+	height: 25px;
+	border: 1px solid #c4c4c4;
+}
+
+.tagElementContainer .gwt-HTML {
+	font-size: 13px;
+	padding: 5px 8px 2px 8px;
+	color: #4c4c4c;
+}
+
+.tagElementContainer-Suggested .gwt-HTML {
+	font-size: 13px;
+	padding: 5px 8px 2px 8px;
+	color: #4c4c4c;
+}
+
+.tagElementContainer-Suggested .gwt-HTML:hover {
+	font-size: 13px;
+	padding: 5px 8px 2px 8px;
+	color: #fff;
+}
+
+.tagElementContainer-Suggested .gwt-Button {
+	display: none;
+	
+}
+
+.tagElementContainer .gwt-Button {
+	margin:0px 3px 6px 3px;
+	color:black;
+	background:none;
+	background-color: transparent;
+	border: none;
+	font-size: 10px;
+	padding: 0px 1px 5px 1px;
+}
+
+.tagElementContainer .gwt-Button:hover {
+	background-color: #CBCBCB;
+	border-radius:50%;
+	color:white;
+}

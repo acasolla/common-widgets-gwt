@@ -1,0 +1,15 @@
+@external htmlLink;
+
+.tabCommandLink{
+	top:21px;
+	width:100%;
+	position:absolute;
+	z-index: 1;
+	right: 15px;
+}
+
+
+.tabCommandLink .htmlLink{
+	font-size: 13px;
+	padding-left: 20px;
+}

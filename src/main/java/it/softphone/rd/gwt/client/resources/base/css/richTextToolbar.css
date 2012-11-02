@@ -1,0 +1,10 @@
+@external gwt-ListBox;
+
+.richTextToolbar{
+}
+
+
+.richTextList{
+	margin:0px;
+	height:22px !important;
+}

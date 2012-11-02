@@ -1,0 +1,73 @@
+@external gwt-HTML;
+@external htmlLink;
+@external commentBoxImageUser;
+@external commentBoxImageCustomer;
+
+.commentBoxContainer{
+	width: 91%;
+	background-color: #FFF;
+	padding : 10px;
+	border: 1px solid #c4c4c4;
+	
+}
+
+.commentBoxImageCustomer{
+
+}
+
+.commentBoxImageCustomer img{
+	float:right;
+	clear:both;
+	margin-left:10px;
+	margin-right:0px;
+	width: 40px;
+	height:40px;
+	padding:0px 0px 5px 0px;
+
+}
+
+.commentBoxImageUser{
+}
+
+.commentBoxImageUser img{
+	float:left;
+	clear:both;
+	margin-left:0px;
+	margin-right:10px;
+	width: 40px;
+	height:40px;
+
+	padding:0px 0px 5px 0px;
+}
+
+.commentBoxInfoContainer{
+	float:right;
+	width:100%;	
+}
+
+.commentBoxInfoContainer .gwt-HTML{
+	float:right;
+	margin: 0px;
+	padding: 0px;
+	color:#4c4c4c;
+	font-style: italic;
+	font-size: 10px;
+	
+}
+
+.commentBoxInfoContainer .htmlLink{
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+.commentBoxListItem{
+	width: 100%;
+	height: 100%;
+}
+
+.commentBoxListExternal{
+	padding: 5px 0px 5px 0px;
+}

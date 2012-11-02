@@ -1,0 +1,21 @@
+.tabHeaderContainer {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+.tabHeaderBtn {
+	margin-left:3px;
+	margin-right:3px;
+	color:silver;
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+}
+
+.tabHeaderBtn:hover {
+	background-color: silver;
+	border-radius:15px;
+	color:white;
+}
