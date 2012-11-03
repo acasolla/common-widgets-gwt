@@ -12,9 +12,9 @@
 	<description>common-widgets-gwt</description>
 
 	<scm>
-		<connection>scm:svn:http://support.softphone.it/svnRD/trunk/commons-gwt-parent/commons-gwt</connection>
-		<developerConnection>scm:svn:http://support.softphone.it/svnRD/trunk/commons-gwt-parent/commons-gwt</developerConnection>
-		<url>scm:svn:http://support.softphone.it/svnRD/trunk/commons-gwt-parent/commons-gwt</url>
+		<connection>https://github.com/acasolla/common-widgets-gwt-showcase.git</connection>
+		<developerConnection>https://github.com/acasolla/common-widgets-gwt-showcase.git</developerConnection>
+		<url>https://github.com/acasolla/common-widgets-gwt-showcase.git</url>
 	</scm>
 
 	<dependencies>
@@ -42,7 +42,7 @@
 					<include>*/*</include>
 				</includes>
 			</resource>
-			
+
 			<resource>
 				<directory>src/main/java</directory>
 				<includes>
@@ -73,15 +73,15 @@
 				<artifactId>gwt-maven-plugin</artifactId>
 				<version>${gwtVersion}</version>
 				<executions>
-          <execution>
-            <goals>
-              <goal>resources</goal>
-            </goals>
-          </execution>
-        </executions>
+					<execution>
+						<goals>
+							<goal>resources</goal>
+						</goals>
+					</execution>
+				</executions>
 				<configuration>
-				<localWorkers>2</localWorkers>
-		
+					<localWorkers>2</localWorkers>
+
 				</configuration>
 			</plugin>
 			<!-- ============================================================================= CONFLUENCE REPORT 
@@ -148,18 +148,18 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
-				
-				<plugin> 
-       <artifactId>maven-deploy-plugin</artifactId> 
-       <version>2.5</version> 
-       <dependencies> 
-         <dependency> 
-           <groupId>org.apache.maven.wagon</groupId> 
-           <artifactId>wagon-ssh</artifactId> 
-           <version>1.0-beta-7</version> 
-         </dependency> 
-       </dependencies> 
-     </plugin> 
+
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.5</version>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.wagon</groupId>
+							<artifactId>wagon-ssh</artifactId>
+							<version>1.0-beta-7</version>
+						</dependency>
+					</dependencies>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -209,14 +209,14 @@
 	<distributionManagement>
 
 		<snapshotRepository>
-    <id>gh-pages</id>
-    <url>file:///${basedir}/../common-widgets-gwt-pages/repository</url>
+			<id>gh-pages</id>
+			<url>file:///${basedir}/../common-widgets-gwt-pages/repository</url>
 		</snapshotRepository>
 
 		<repository>
-    <id>gh-pages</id>
-    <url>file:///${basedir}/../common-widgets-gwt-pages/repository</url>
-  </repository>
+			<id>gh-pages</id>
+			<url>file:///${basedir}/../common-widgets-gwt-pages/repository</url>
+		</repository>
 
 	</distributionManagement>
 

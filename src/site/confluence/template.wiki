@@ -7,56 +7,49 @@ h1. Intro
 
 This library contains useful GWT widgets.
 
-h1. Requirements
+h2. Requirements
 
 ||Java|sdk 1.6|
 ||Maven|3.x|
 ||GWT|2.5.x|
 
+h2. Useful links
 
-h1. Usage
+* [Javadocs|http://acasolla.github.com/common-widgets-gwt/docs]
+* [Source|https://github.com/acasolla/common-widgets-gwt]
+* [Showcase|http://common-widgets-gwt-showcase.appspot.com/]
+* [Showcase source|https://github.com/acasolla/common-widgets-gwt-showcase]
 
-h2. Project pom
+h2. Usage
 
-Include this dependency in your pom :
+To use this library with Maven:
+
+* Add the repository to your pom:
+
+{code:xml}
+<repository>
+     <id>common-widgets-gwt</id>
+     <name>common-widgets-gwt repository on GitHub</name>
+     <url>http://acasolla.github.com/common-widgets-gwt/repository/</url>
+</repository>
+{code}
+
+* Add the dependency to your pom:
 
 {code:xml}
 <dependency>
-	<groupId>it.softphone.rd.gwt</groupId>
-	<artifactId>commons-gwt</artifactId>
-	<version>1.0-SNAPSHOT</version>
+     <groupId>it.softphone.rd.gwt </groupid>
+     <artifactId>common-widgets-gwt </artifactid>
+     <version>1.0-SNAPSHOT </version>
 </dependency>
 {code}
 
-h2. Gwt project
-
-Inherit these modules in your gwt project :
+* Add the dependency to your gwt module:
 
 {code:xml}
-<inherits name='it.softphone.rd.gwt.CommonsWidget'/>
-<inherits name='it.softphone.rd.model.Model'/>
+<inherits name='it.softphone.rd.gwt.CommonWidgets'/>
 {code}
 
 
-
-h2. Widgets
-
-h3. HintTextBox
-
-!HintTextBox.png!
-
-
-
-
-
 ...
-
-
-
-
-----
-
-${project.scmManager}
-
-----
 
