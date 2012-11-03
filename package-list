@@ -1,0 +1,13 @@
+it.softphone.rd.gwt.client
+it.softphone.rd.gwt.client.history
+it.softphone.rd.gwt.client.resources
+it.softphone.rd.gwt.client.resources.base
+it.softphone.rd.gwt.client.theme
+it.softphone.rd.gwt.client.widget
+it.softphone.rd.gwt.client.widget.base
+it.softphone.rd.gwt.client.widget.base.filter
+it.softphone.rd.gwt.client.widget.base.list
+it.softphone.rd.gwt.client.widget.base.social
+it.softphone.rd.gwt.client.widget.base.tab
+it.softphone.rd.gwt.client.widget.base.tag
+it.softphone.rd.model.shared
