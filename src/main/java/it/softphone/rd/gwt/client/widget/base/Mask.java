@@ -28,7 +28,6 @@ import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.PopupPanel;
-import com.google.gwt.user.client.ui.RootPanel;
 
 /**
  * <h1>A simple popup panel</h1>
@@ -59,7 +58,6 @@ public class Mask extends PopupPanel implements ResourceAware{
 	private Label label = new Label("Loading...");
 	private Image loader = new Image(resources.loaderCircle());
 	private Button ok = new Button("Ok");
-	private final MaskCss css;
 	
 	/**
 	 * Construct the mask with default width and heigth
@@ -93,7 +91,6 @@ public class Mask extends PopupPanel implements ResourceAware{
 	 * @param heigth the mask heigth
 	 */
 	public Mask( MaskCss css, boolean modal,String width, String heigth ){
-		this.css = css;
 		css.ensureInjected();
 		setWidth(width);
 		setHeight(heigth);

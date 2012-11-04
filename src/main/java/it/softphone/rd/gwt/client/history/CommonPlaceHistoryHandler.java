@@ -1,3 +1,6 @@
+/**
+ * Classes used to manage history
+ */
 package it.softphone.rd.gwt.client.history;
 
 import java.util.logging.Logger;
