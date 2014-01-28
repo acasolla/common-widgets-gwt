@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>it.softphone.rd.gwt</groupId>
-  <artifactId>common-widgets-gwt</artifactId>
+  <artifactId>common-widgets-gwt-parent</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20140128143552</lastUpdated>
+    <lastUpdated>20140128143549</lastUpdated>
   </versioning>
 </metadata>
